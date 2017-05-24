@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189436B61ED53F7E00F5DA3D /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189436B51ED53F7E00F5DA3D /* SignInVC.swift */; };
 		18E439E61ED5346600A117F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E439E51ED5346600A117F2 /* AppDelegate.swift */; };
-		18E439E81ED5346600A117F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E439E71ED5346600A117F2 /* ViewController.swift */; };
 		18E439EB1ED5346600A117F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E439E91ED5346600A117F2 /* Main.storyboard */; };
 		18E439ED1ED5346600A117F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E439EC1ED5346600A117F2 /* Assets.xcassets */; };
 		18E439F01ED5346600A117F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E439EE1ED5346600A117F2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189436B51ED53F7E00F5DA3D /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
 		18E439E21ED5346600A117F2 /* UberRiderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberRiderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E439E51ED5346600A117F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18E439E71ED5346600A117F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		18E439EA1ED5346600A117F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18E439EC1ED5346600A117F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E439EF1ED5346600A117F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +35,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		189436B21ED53F4A00F5DA3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		189436B31ED53F4F00F5DA3D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		189436B41ED53F5C00F5DA3D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				189436B51ED53F7E00F5DA3D /* SignInVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		18E439D91ED5346600A117F2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +76,10 @@
 		18E439E41ED5346600A117F2 /* UberRiderApp */ = {
 			isa = PBXGroup;
 			children = (
+				189436B41ED53F5C00F5DA3D /* Controller */,
+				189436B31ED53F4F00F5DA3D /* View */,
+				189436B21ED53F4A00F5DA3D /* Model */,
 				18E439E51ED5346600A117F2 /* AppDelegate.swift */,
-				18E439E71ED5346600A117F2 /* ViewController.swift */,
 				18E439E91ED5346600A117F2 /* Main.storyboard */,
 				18E439EC1ED5346600A117F2 /* Assets.xcassets */,
 				18E439EE1ED5346600A117F2 /* LaunchScreen.storyboard */,
@@ -137,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18E439E81ED5346600A117F2 /* ViewController.swift in Sources */,
+				189436B61ED53F7E00F5DA3D /* SignInVC.swift in Sources */,
 				18E439E61ED5346600A117F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +328,7 @@
 				18E439F61ED5346600A117F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
